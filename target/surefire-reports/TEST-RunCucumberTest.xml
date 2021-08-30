@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="RunCucumberTest" time="0.122" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\JDK 11\bin"/>
+    <property name="cucumber.glue" value="package_name_of_step_definitions"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Anton\IdeaProjects\TestCrocAutomation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Anton\IdeaProjects\TestCrocAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Anton\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\JDK 11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;D:\Python\Scripts\;D:\Python\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Anton\Desktop\JDK 11\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Anton\IdeaProjects\Selenium\drivers\chromedriver\chromedriver.exe;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\NodeJS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\dotnet\;C:\Program Files\WireGuard\;C:\Ruby30-x64\bin;C:\Program Files\Maven\bin;C:\Users\Anton\AppData\Local\GitHubDesktop\bin;C:\Users\Anton\IdeaProjects\Selenium\drivers\chromedriver\chromedriver.exe;C:\Program Files (x86)\Java\JDK 11;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;;C:\Users\Anton\AppData\Roaming\npm;C:\Users\Anton\AppData\Local\Microsoft\WindowsApps;C:\Users\Anton\AppData\Local\Android\Sdk\emulator;C:\Users\Anton\AppData\Local\Android\Sdk\platform-tools;C:\Users\Anton\AppData\Local\Android\Sdk\tools;C:\Users\Anton\AppData\Local\Android\Sdk\tools\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\Maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Anton"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="Anton"/>
+    <property name="java.class.path" value="C:\Program Files\Maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dcucumber.glue=package_name_of_step_definitions"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\JDK 11"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="maven.home" value="C:\Program Files\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="clickNews" name="ClickNews" time="0.115">
+    <error message="The step &apos;find_news_head&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;find_news_head&quot;)
+public void find_news_head() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;click_news&quot;)
+public void click_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_news_example&quot;)
+public void find_news_example() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;get_back&quot;)
+public void get_back() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;find_news_head&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;find_news_head&quot;)
+public void find_news_head() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;click_news&quot;)
+public void click_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_news_example&quot;)
+public void find_news_example() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;get_back&quot;)
+public void get_back() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: ClickNews      &amp;#27;[90m# src/test/resources/features/ClickNews.feature:3&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mfind_news_head&amp;#27;[0m    &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mclick_news&amp;#27;[0m        &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mfind_news_example&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mget_back&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Open site" name="BasicPageHead" time="0.007">
+    <error message="The step &apos;find_news&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;find_news&quot;)
+public void find_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_contacts&quot;)
+public void find_contacts() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_price&quot;)
+public void find_price() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_promo&quot;)
+public void find_promo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_gallery&quot;)
+public void find_gallery() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;find_news&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;find_news&quot;)
+public void find_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_contacts&quot;)
+public void find_contacts() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_price&quot;)
+public void find_price() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_promo&quot;)
+public void find_promo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;find_gallery&quot;)
+public void find_gallery() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: BasicPageHead &amp;#27;[90m# src/test/resources/features/login.feature:3&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mfind_news&amp;#27;[0m        &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mfind_contacts&amp;#27;[0m    &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mfind_price&amp;#27;[0m       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mfind_promo&amp;#27;[0m       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mfind_gallery&amp;#27;[0m     &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

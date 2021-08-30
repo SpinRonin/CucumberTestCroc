@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.506 sec <<< FAILURE!
+ClickNews(clickNews)  Time elapsed: 0.115 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'find_news_head' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("find_news_head")
+public void find_news_head() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("click_news")
+public void click_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("find_news_example")
+public void find_news_example() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("get_back")
+public void get_back() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+BasicPageHead(Open site)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'find_news' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("find_news")
+public void find_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("find_contacts")
+public void find_contacts() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("find_price")
+public void find_price() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("find_promo")
+public void find_promo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("find_gallery")
+public void find_gallery() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
